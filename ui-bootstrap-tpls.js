@@ -3422,6 +3422,7 @@ angular.module('ui.bootstrap.tabs', [])
   var destroyed;
   $scope.$on('$destroy', function() {
     destroyed = true;
+    tabs = [];
   });
 }])
 
